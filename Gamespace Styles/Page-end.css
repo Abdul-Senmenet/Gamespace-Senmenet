@@ -1,0 +1,23 @@
+.lower-box
+{
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.Company-Name
+{
+    height: 70px;
+    width: 140px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.sponsor-end
+{
+    font-family: "Pixelify Sans";
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 300px;
+}

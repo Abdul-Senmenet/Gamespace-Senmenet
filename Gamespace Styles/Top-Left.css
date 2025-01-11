@@ -1,0 +1,33 @@
+.Top-Left 
+{
+    display: flex; flex-direction: column; height: 600px; width: 600px;
+}
+
+.Pc-Button, .Laptop-Button, .PokeDex-Button, .Console-Button
+{
+    height: 250px;
+    width: 250px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 0;
+    box-shadow: 3px 3px 25px rgba(0,0,0,0.4);
+    transition: 0.4s;
+    cursor: pointer;
+    border: none;
+}
+
+.Pc-Button:Hover,.Laptop-Button:Hover,.PokeDex-Button:Hover, .Console-Button:Hover
+{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16)
+    0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px,-8px);
+}
+
+.Pc-image,.Laptop-image,.console-image,.pokedex-image
+{  
+    height: 245px;
+    width: 245px;
+    border-radius: 20px;   
+}
